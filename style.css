@@ -1,8 +1,16 @@
 body {
-    background-color: black;
+    background-image: url("933512.jpg");
     color: white;
     font-family: arial;
     text-align: center;
+}
+
+article {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding-top: 2px;
 }
 
 footer {
