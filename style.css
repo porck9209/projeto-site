@@ -2,6 +2,7 @@ body {
     background-image: url("933512.jpg");
     color: white;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 article {
@@ -10,11 +11,11 @@ article {
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
     padding-top: 2px;
-    font-family: 'Montserrat' sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
-    padding-top: 300px;
+    padding-top: 250px;
     text-align: center;
     text-shadow: 1px 2px rgb(64, 180, 242);
 }
