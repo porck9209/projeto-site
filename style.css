@@ -5,7 +5,6 @@ body {
 
 iframe {
     border-radius: 30px;
-    
 }
 
 p {
@@ -14,4 +13,8 @@ p {
 
 footer {
     color: white;
+}
+
+a {
+    color: red;
 }
