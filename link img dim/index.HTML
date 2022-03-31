@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir essa imagens em varios dispositivos <br> ou simplesmente diminua e aumente o tamhando do seu navegador
+    </p>
+    <p>Ctrol(+) para aumentar e Ctrol(-) para diminuir</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/Foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/Foto-m.png" type="image/png">
+        <img src="imagens/Foto-G.png" alt="foto-pequena">
+
+
+    </picture>
+</body>
+
+</html>
