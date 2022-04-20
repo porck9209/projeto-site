@@ -8,8 +8,18 @@ iframe {
     border-radius: 30px;
 }
 
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    padding-right: 500px;
+}
+
 p {
     color: white;
+    font-family: 'Roboto Mono', monospace;
 }
 
 footer {
