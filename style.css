@@ -22,10 +22,14 @@ p {
     font-family: 'Roboto Mono', monospace;
 }
 
+p#rede {
+    font-size: 10pt;
+}
+
 footer {
     color: white;
 }
 
 a {
-    color: red;
+    color: rgb(190, 0, 0);
 }
