@@ -27,6 +27,14 @@ p {
     font-family: 'Roboto Mono', monospace;
 }
 
+p#glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur( 10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+    font-size: 16pt;
+}
+
 p#rede {
     font-size: 10pt;
 }
